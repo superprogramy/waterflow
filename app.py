@@ -45,10 +45,10 @@ class WaterFlowAnalyticsSuite:
 # Default credentials
 # Default account: admin
 # Default password: 12345
-os.environ["WATERFLOW_SECRET"] = "29308e90wf802938e0912uh39801hg280g1u2bv19yv2y98gdfas7d9yg208"
+os.environ["WATERFLOW_SECRET"] = "<<OMITTED>"
 
 # Application initialization
-app = WaterFlowAnalyticsSuite(author="Tomasz", secret="29308e90wf802938e0912uh39801hg280g1u2bv19yv2y98gdfas7d9yg208")
+app = WaterFlowAnalyticsSuite(author="Tomasz", secret="<<OMITTED>>")
 
 # Example usage
 app.add_leak_data(sensor_id="L001", location="Sector 5", status="active", detection_time="2024-11-26 10:00")
