@@ -42,9 +42,6 @@ class WaterFlowAnalyticsSuite:
         return self.secret == os.getenv("WATERFLOW_SECRET")
 
 # Configuration
-# Default credentials
-# Default account: admin
-# Default password: 12345
 os.environ["WATERFLOW_SECRET"] = "<<OMITTED>"
 
 # Application initialization
